@@ -1,0 +1,15 @@
+# This mod_auth_cas Apache module configuration file is being
+# managed by Puppet. Any changes will be overwritten.
+  CASVersion <%= @cas_version %>
+  CASDebug <%= @cas_debug %>
+  CASCookiePath <%= @cas_cookie_path %>
+  CASCookieEntropy <%= @cas_cookie_entropy %>
+  CASCacheCleanInterval <%= @cas_cache_clean_interval %>
+  CASLoginURL <%= @cas_login_url %>
+  CASValidateURL <%= @cas_validate_url %>
+  CASTimeout <%= @cas_timeout %>
+  CASIdleTimeout <%= @cas_idle_timeout %>
+  CASValidateServer <%= @cas_validate_server %>
+  CASValidateDepth <%= @cas_validate_depth %>
+  CASAllowWildcardCert <%= @cas_allow_wildcard_cert %>
+  CASCertificatePath <%= @cas_certificate_path %>
